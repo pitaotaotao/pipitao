@@ -1,0 +1,130 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,input,textarea,select,td,th{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;	
+}
+ul,ol{
+	list-style: none;
+}
+body{
+	font-family: "微软雅黑";
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+	background: white;
+	background: #f2f2f2;
+}
+img{
+	border: none;
+	display: block;
+}
+/* header */
+.header{
+	height: 44px;
+	background: #fff;
+    color: #333;
+    line-height: 44px;
+    text-align: center;
+}
+.header span{
+	width: 44px;
+    height: 44px;
+    display: inline-block;
+    text-align: center;
+	float:left;
+	color: #333;
+}
+.icon1{
+	width: 44px;
+    height: 44px;
+    line-height: 44px;
+}
+.icon1::before {
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    vertical-align: middle;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+    box-sizing: border-box;
+	border-color: #333;
+}
+.header h1{
+	line-height: 44px;
+    font-size: 18px;
+	position: absolute;
+    left: 88px;
+    right: 88px;
+	color: #333;
+	font-weight: 400;
+}
+
+/* banner */
+.banner{
+	width: 100%;
+	height: 117px;
+	font-size: 117px;
+}
+.banner img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.biginsan{
+	margin-bottom: 10px;
+	background: #fff;
+	padding: 15px 30px 15px 20px;
+}
+
+.insan{
+	position: relative;
+    overflow: hidden;
+}
+.mod_icon_insure{
+	    float: left;
+    margin-right: 15px;
+    width: 70px;
+    height: 71px;
+	background-image: url(../img/un.png);
+    background-repeat: no-repeat;
+    background-size: 100px auto;
+}
+.insan h3{
+	font-size: 18px;
+    margin: 6px 0 5px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.insan p{
+	color: #999;
+    overflow: hidden;
+    font-size: 12px;
+}
+.inlist{
+	background: #fff;
+    padding: 0 10px 15px;
+    position: relative;
+}
+.inlis li{
+	width: 33.3%;
+    float: left;
+	    color: #333;
+    padding: 5px 3px 0 2px;
+    box-sizing: border-box;
+}
+.inlis li span{
+    background: #f3f6ff;
+    border-radius: 4px;
+    display: block;
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    color: #666;
+}
+.imgcon{
+	background-position: 0 -75px;
+}
